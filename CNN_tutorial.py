@@ -91,3 +91,4 @@ if __name__ == '__main__':
 
     # Save the model to disk
     model.save_weights('mnist.weights.h5')
+    model.export('saved_model')
